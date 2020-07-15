@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+        <listeners>
+            <listener class-name="com.wbl.utils.LoggerListener"></listener>
+        </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/easwarimuthu/IdeaProjects/AutomationPractice">
+        <classes>
+            <class name="com.wbl.test.HomePageTest">
+                <methods>
+                    <include name="searchTest"/>
+                    <include name="heroImagesTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
