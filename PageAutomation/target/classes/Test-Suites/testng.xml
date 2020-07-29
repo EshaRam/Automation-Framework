@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods">
+    <test verbose="2" preserve-order="true" name="/Users/easwarimuthu/IdeaProjects/PageAutomation">
+        <classes>
+            <class name="com.wbl.test.DemosPageTest">
+                <methods>
+                    <include name="titleCheck"/>
+                </methods>
+            </class>
+            <class name="com.wbl.test.HomePageTest">
+                <methods>
+                    <include name="searchTest"/>
+                    <include name="sliderImage"/>
+                    <include name="logoTest"/>
+                    <include name="section"/>
+                    <include name="footerTest"/>
+                    <include name="footerLink"/>
+                    <include name="testimonialTest"/>
+                </methods>
+            </class>
+            <class name="com.wbl.test.RecordingsTest">
+                <methods>
+                    <include name="dropTest"/>
+                </methods>
+            </class>
+            <class name="com.wbl.test.SchedulePageTest">
+                <methods>
+                    <include name="scheduletitleTest"/>
+                    <include name="calendarTest"/>
+                    <include name="titileTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
